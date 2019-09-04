@@ -4,7 +4,7 @@ import subprocess
 import time
 
 os.system('figlet -w 160 -f standard "Create Oracle Container"')
-os.system('docker-compose -f dockercompose-oracle-11g.xe.yml up -d')
+os.system('docker-compose -f dockercompose-oracle-11g.yml up -d')
 
 print("waiting for Oracle to start")
 ready = False
